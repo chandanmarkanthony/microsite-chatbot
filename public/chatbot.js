@@ -1,6 +1,9 @@
 (function () {
   const state = { step: "start", name: "", phone: "", email: "" };
-  const siteName = document.querySelector('meta[property="og:site_name"]')?.content || document.title;
+  const siteName =
+  document.querySelector('meta[property="og:site_name"]')?.content ||
+  document.title ||
+  "Ananya";
   const desc = document.querySelector('meta[name="description"]')?.content || "";
   const image = document.querySelector('meta[property="og:image"]')?.getAttribute("content") || "";
 
@@ -157,7 +160,11 @@
 
   // ---------------- FLOW ----------------
   async function startChat() {
-    await addMessage(`👋 Welcome to <b>${siteName}</b>. We are here to help you.`);
+        if (siteName === "Ananya") {
+  await addMessage(`👋 Hey, I'm <b>Ananya</b>! How can I help you?`);
+} else {
+  await addMessage(`👋 Welcome to <b>${siteName}</b>. We are here to help you.`);
+}
     if (image) await addMessage(`<img src="${image}" class="cb-img">`);
     if (desc) await addMessage(desc);
     await addMessage("Do you prefer to receive the project brochure and price details via email?");
