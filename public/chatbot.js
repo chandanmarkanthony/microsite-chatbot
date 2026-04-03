@@ -30,50 +30,27 @@
       <div class="cb-footer">
         <div class="cb-input-wrapper" id="cb-input-wrapper">
          <select id="cb-country-code" style="display:none; max-height:80px; overflow-y:auto;">
-              <option value="+91">🇮🇳 +91</option>
-              <option value="+971">🇦🇪 +971</option>
-              <option value="+966">🇸🇦 +966</option>
-              <option value="+968">🏳️ +968</option>
-              <option value="+974">🇶🇦 +974</option>
-              <option value="+973">🇧🇭 +973</option>
-              <option value="+965">🇰🇼 +965</option>
-              <option value="+92">🇵🇰 +92</option>
-              <option value="+880">🇧🇩 +880</option>
-              <option value="+94">🇱🇰 +94</option>
-              <option value="+977">🇳🇵 +977</option>
-              <option value="+1">🇺🇸 +1</option>
-              <option value="+1">🇨🇦 +1</option>
-              <option value="+44">🇬🇧 +44</option>
-              <option value="+61">🇦🇺 +61</option>
-              <option value="+64">🇳🇿 +64</option>
-              <option value="+33">🇫🇷 +33</option>
-              <option value="+49">🇩🇪 +49</option>
-              <option value="+39">🇮🇹 +39</option>
-              <option value="+34">🇪🇸 +34</option>
-              <option value="+31">🇳🇱 +31</option>
-              <option value="+47">🇳🇴 +47</option>
-              <option value="+46">🇸🇪 +46</option>
-              <option value="+45">🇩🇰 +45</option>
-              <option value="+41">🇨🇭 +41</option>
-              <option value="+20">🇪🇬 +20</option>
-              <option value="+27">🇿🇦 +27</option>
-              <option value="+254">🇰🇪 +254</option>
-              <option value="+255">🇹🇿 +255</option>
-              <option value="+251">🇪🇹 +251</option>
-              <option value="+86">🇨🇳 +86</option>
-              <option value="+81">🇯🇵 +81</option>
-              <option value="+82">🇰🇷 +82</option>
-              <option value="+65">🇸🇬 +65</option>
-              <option value="+60">🇲🇾 +60</option>
-              <option value="+63">🇵🇭 +63</option>
-              <option value="+62">🇮🇩 +62</option>
-              <option value="+66">🇹🇭 +66</option>
-              <option value="+84">🇻🇳 +84</option>
-              <option value="+90">🇹🇷 +90</option>
-              <option value="+98">🇮🇷 +98</option>
-              <option value="+961">🇱🇧 +961</option>
-              <option value="+962">🇯🇴 +962</option>
-              <option value="+963">🇸🇾 +963</option>
+              <option value="+91" selected>🇮🇳 +91</option>
+                <option value="+971">🇦🇪 +971</option>
+                <option value="+1">🇺🇸 +1</option>
+                <option value="+44">🇬🇧 +44</option>
+                <option value="+61">🇦🇺 +61</option>
+                <option value="+65">🇸🇬 +65</option>
+                <option value="+1">🇨🇦 +1</option>
+
+                <!-- Gulf (Very Important for Real Estate) -->
+                <option value="+966">🇸🇦 +966</option>
+                <option value="+974">🇶🇦 +974</option>
+                <option value="+965">🇰🇼 +965</option>
+                <option value="+968">🇴🇲 +968</option>
+
+                <!-- Asia / Investors -->
+                <option value="+60">🇲🇾 +60</option>
+                <option value="+852">🇭🇰 +852</option>
+
+                <!-- Europe (Optional but useful) -->
+                <option value="+49">🇩🇪 +49</option>
+                <option value="+33">🇫🇷 +33</option>
             </select>
           <input id="cb-input" type="text" placeholder="Please select an option..." disabled />
           <button id="cb-send" disabled><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg></button>
