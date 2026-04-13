@@ -234,7 +234,9 @@
 
             // ✅ IMPORTANT: Add this
             allMails: [
-              "chandan.markanthony@gmail.com",
+               "dhinesh@markanthony.co.in",
+                        "markctkind@gmail.com",
+                        "santhoshrajan@markanthony.co.in",
             ]
           })
         }
